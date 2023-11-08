@@ -1,0 +1,298 @@
+/* New Dark Night Blue Theme CSS */
+
+/* Global Styles */
+body {
+  font-family: sans-serif;
+  background-color: #03002e; /* Dark Night Blue background */
+  color: #ffffff; /* White text color for paragraphs */
+}
+
+a {
+  color: #f7d41d; /* Star Yellow link color */
+  text-decoration: none;
+  
+}
+
+a:hover {
+  color: #f0de38; /* Brighter Star Yellow on hover */
+}
+
+/* Header Styles */
+header {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #03002e; /* Dark Night Blue background */
+  color: #f7d41d; /* Star Yellow text color for headers */
+}
+
+header img {
+  width: 200px;
+  border-radius: 50%;
+}
+
+header h1 {
+  font-size: 50px;
+  color: #f7d41d; /* Star Yellow color for h1 */
+  padding-top: 200px;
+  padding-bottom: 20px;
+}
+
+header h2 {
+  align-content: left;
+  color: #f7d41d; /* Star Yellow color for h2 */
+  padding-top: 200px;
+}
+
+/* Navigation Styles */
+nav {
+  float: right;
+  margin-top: 20px;
+}
+
+/* Navigation Styles */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #f7d41d; /* Star Yellow text color */
+  font-size: 18px;
+}
+
+nav a:hover {
+  color: #f9e63b; /* Brighter Star Yellow on hover */
+}
+
+/* Add this style for a modern button appearance */
+nav a {
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #03002e; /* Dark Night Blue background */
+  transition: background-color 0.3s ease-in-out; /* Smooth background color transition on hover */
+}
+
+nav a:hover {
+  background-color: #121212; /* Slightly darker background on hover */
+}
+
+
+nav a:hover {
+  background-color: #03002e; /* Slightly brighter Dark Gray on hover */
+}
+/* Default styles for larger screens */
+nav {
+  float: right;
+  margin-top: 20px;
+}
+
+nav a {
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-right: 10px;
+  background-color: #03002e; /* Dark Gray background */
+  color: #f7d41d; /* Star Yellow text color */
+}
+
+nav a:hover {
+  background-color: #03002e; /* Slightly brighter Dark Gray on hover */
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+  nav {
+    float: none;
+    text-align: center; /* Center the links */
+  }
+
+  nav a {
+    display: block; /* Display each link on a new line */
+    margin: 10px 0;
+  }
+}
+
+
+/* Slideshow Styles */
+.slideshow {
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+}
+
+.slide {
+  width: 100%;
+  height: 100%;
+  float: left;
+  position: relative;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.slide caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #ffffff; /* White text color for captions */
+}
+
+/* About Us and Meet the Team Styles (you can further customize these styles) */
+.about-us, .meet-the-team {
+  padding: 20px;
+  background-color: #03002e; /* Dark Night Blue background */
+  color: #ffffff; /* White text color for paragraphs */
+
+  /* Apply styles to h1 and p within these sections */
+}
+
+h1, h2 {
+  color: #f7d41d; /* Yellow header text color */
+  font-size: 30px; /* Adjust font size as needed */
+}
+
+.about-us p, .meet-the-team p {
+  color: #ffffff; /* White text color for paragraphs */
+  font-size: 20px; /* Adjust font size as needed */
+}
+
+/* Sign Up Now Styles */
+.sign-up-now {
+  padding: 20px;
+  background-color: #03002e; /* Dark Gray background */
+  color: #f7d41d; /* Star Yellow text color for sign-up content */
+  
+}
+h1, h2 {
+  color: #f7d41d; /* Yellow header text color */
+  font-size: 30px; /* Adjust font size as needed */
+}
+
+.sign-up-now p, .meet-the-team p, ul {
+  color: #ffffff; /* White text color for paragraphs */
+  font-size: 20px; /* Adjust font size as needed */
+}
+
+.sign-up-now img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+/* Instagram Link Button Styles */
+.instagram-link-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #f7d41d; /* Star Yellow background */
+  color: #03002e; /* Dark Night Blue text color */
+}
+
+/* Footer Styles */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #03002e; /* Dark Night Blue background */
+}
+/* Define a CSS class to make the text yellow */
+.yellow-email {
+  color: #f7d41d; /* Yellow text color */
+}
+/* Modern Interactive Button Styles */
+.modern-button {
+  display: inline-block;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  background-color: #f7d41d; /* Star Yellow background */
+  color: #03002e; /* Dark Night Blue text color */
+  border: 2px solid #f7d41d; /* Star Yellow border */
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.modern-button:hover {
+  background-color: #03002e; /* Dark Night Blue background on hover */
+  color: #f7d41d; /* Star Yellow text color on hover */
+}
+/* Navigation Button Styles */
+.nav-button {
+  margin-right: 10px; /* Add spacing between the buttons */
+  padding: 8px 16px; /* Padding for the buttons */
+  text-align: center;
+  text-decoration: none;
+  background-color: #f7d41d; /* Star Yellow background */
+  color: #03002e; /* Dark Night Blue text color */
+  border: 2px solid #f7d41d; /* Star Yellow border */
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  cursor: pointer;
+  font-size: 14px; /* Font size */
+}
+
+.nav-button:hover {
+  background-color: #03002e; /* Dark Night Blue background on hover */
+  color: #f7d41d; /* Star Yellow text color on hover */
+}
+h3{
+   color: #f7d41d;
+  font-size: 24px;
+}
+/* Adjust the grid layout */
+.team-member {
+  display: inline-block;
+  width: 50%; /* Display 2 members per row (2x2 grid) */
+  text-align: center;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+/* Make the images responsive */
+.team-member img {
+  max-width: 100%; /* Ensure the image doesn't exceed its container */
+  height: auto; /* Maintain the aspect ratio */
+  display: block; /* Remove extra spacing below the image */
+}
+.team-member-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.team-member {
+  width: 50%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  
+}
+
+
+.team-member h3 {
+  font-size: 30px;
+  margin-top: 0px;
+}
+
+.team-member p {
+  font-size: 20px;
+  margin-top: 5px;
+}

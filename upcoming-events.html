@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://cdn.jsdelivr.net/npm/fullcalendar@5.11.3/main.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fullcalendar@5.11.3/main.min.css">
+
+  <title>LASA High School MSA Chapter Upcoming Events</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <nav>
+      <a class="nav-button" href="about-us.html">About Us</a>
+      <a class="nav-button" href="forms-signup.html">Forms Signup</a>
+      <a class="nav-button" href="instagram-link.html">Instagram</a>
+      <a class="nav-button" href="upcoming-events.html">Upcoming Events</a>
+    </nav>
+
+
+
+    </nav>
+    <a href="index.html">
+      <img src="msa-logo.png" alt="LASA High School MSA Chapter Logo" style="width: 100px; height: auto;">
+    </a>
+
+    <h1>Upcoming Events</h1>
+  </header>
+  <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23F6BF26&ctz=America%2FNew_York&showNav=0&showPrint=0&showTz=0&showCalendars=0&showTabs=0&showTitle=0&src=bGFzYWhpZ2htc2FAZ21haWwuY29t&color=%23039BE5" style="border:solid 1px #777" width="600" height="400" frameborder="0" scrolling="no"></iframe>
+  <section class="calendar">
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        var calendar = new FullCalendar({
+          el: document.querySelector('.calendar'),
+          events: [
+            {
+              title: 'Event Title 1',
+              start: '2023-08-11T12:00:00',
+              end: '2023-08-11T13:00:00',
+              location: 'LASA High School Library',
+            },
+            {
+              title: 'Event Title 2',
+              start: '2023-08-12T15:00:00',
+              end: '2023-08-12T16:00:00',
+              location: 'LASA High School Cafeteria',
+            },
+            {
+              title: 'Event Title 3',
+              start: '2023-08-13T18:00:00',
+              end: '2023-08-13T19:00:00',
+              location: 'LASA High School Masjid',
+            }
+          ]
+        });
+      });
+    </script>
+
+    </section>
+
+  <section class="events">
+    <h2>Upcoming Events</h2>
+    <ul>
+      <li>
+        <h3>Nothing Planned Yet</h3>
+        <!--<ul>
+          <li>Time: 12:00 PM - 1:00 PM</li>
+          <li>Date: Friday, 2023-08-11</li>
+          <li>Location: LASA High School Library</li>
+          <li>Summary: This event is a great opportunity to learn more about the LASA High School MSA Chapter and meet other Muslim students at LASA.</li>
+        </ul>
+      </li>
+      <li>
+        <h3>Event Title 2</h3>
+        <ul>
+          <li>Time: 3:00 PM - 4:00 PM</li>
+          <li>Date: Saturday, 2023-08-12</li>
+          <li>Location: LASA High School Cafeteria</li>
+          <li>Summary: This event is a potluck lunch where Muslim students at LASA can come together and socialize.</li>
+        </ul>
+      </li>
+      <li>
+        <h3>Event Title 3</h3>
+        <ul>
+          <li>Time: 6:00 PM - 7:00 PM</li>
+          <li>Date: Sunday, 2023-08-13</li>
+          <li>Location: LASA High School Masjid</li>
+          <li>Summary: This event is a weekly Islamic studies class for Muslim students at LASA.</li>
+        </ul>
+        -->
+      </li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>2023 LASA High School MSA Chapter</p>
+    <p>Contact Us: <a class="yellow-email" href="mailto:lasahighmsa@gmail.com">lasahighmsa@gmail.com</a></p>
+  </footer>
+
+</body>
+</html>
