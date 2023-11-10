@@ -8,13 +8,13 @@ body {
 }
 
 a {
-  color: #006b00; /* Star Yellow link color */
+  color: #42170D; /* Star Yellow link color */
   text-decoration: none;
   
 }
 
 a:hover {
-  color: #006b00; /* Brighter Star Yellow on hover */
+  color: #3859ff; /* Brighter Star Yellow on hover */
 }
 
 /* Header Styles */
@@ -22,7 +22,7 @@ header {
   text-align: center;
   padding: 20px 0;
   background-color: #fce4cc; /* Dark Night Blue background */
-  color: #006b00; /* Star Yellow text color for headers */
+  color: #42170D; /* Star Yellow text color for headers */
 }
 
 header img {
@@ -32,14 +32,15 @@ header img {
 
 header h1 {
   font-size: 50px;
-  color: #006b00; /* Star Yellow color for h1 */
+  color: #42170D; /* Star Yellow color for h1 */
   padding-top: 200px;
   padding-bottom: 20px;
+  
 }
 
 header h2 {
   align-content: left;
-  color: #006b00; /* Star Yellow color for h2 */
+  color: #42170D; /* Star Yellow color for h2 */
   padding-top: 200px;
 }
 
@@ -63,12 +64,12 @@ nav li {
 
 nav a {
   text-decoration: none;
-  color: #006b00; /* Star Yellow text color */
+  color: #030142; /* Star Yellow text color */
   font-size: 18px;
 }
 
 nav a:hover {
-  color: #006b00; /* Brighter Star Yellow on hover */
+  color: #3859ff; /* Brighter Star Yellow on hover */
 }
 
 /* Add this style for a modern button appearance */
@@ -98,7 +99,7 @@ nav a {
   border-radius: 5px;
   margin-right: 10px;
   background-color: #fce4cc; /* Dark Gray background */
-  color: #006b00; /* Star Yellow text color */
+  color: #42170D; /* Star Yellow text color */
 }
 
 nav a:hover {
@@ -154,35 +155,36 @@ nav a:hover {
 .about-us, .meet-the-team {
   padding: 20px;
   background-color: #fce4cc; /* Dark Night Blue background */
-  color: #42170D; /* White text color for paragraphs */
+  color: #030142; /* White text color for paragraphs */
 
   /* Apply styles to h1 and p within these sections */
 }
 
 h1, h2 {
-  color: #006b00; /* Yellow header text color */
+  color: #42170D; /* Yellow header text color */
   font-size: 30px; /* Adjust font size as needed */
 }
 
 .about-us p, .meet-the-team p {
-  color: #42170D; /* White text color for paragraphs */
+  color: #030142; /* White text color for paragraphs */
   font-size: 20px; /* Adjust font size as needed */
+
 }
 
 /* Sign Up Now Styles */
 .sign-up-now {
   padding: 20px;
   background-color: #fce4cc; /* Dark Gray background */
-  color: #006b00; /* Star Yellow text color for sign-up content */
+  color: #030142; /* Star Yellow text color for sign-up content */
   
 }
 h1, h2 {
-  color: #006b00; /* Yellow header text color */
+  color: #42170D; /* Yellow header text color */
   font-size: 30px; /* Adjust font size as needed */
 }
 
 .sign-up-now p, .meet-the-team p, ul {
-  color: #42170D; /* White text color for paragraphs */
+  color: #030142; /* White text color for paragraphs */
   font-size: 20px; /* Adjust font size as needed */
 }
 
@@ -202,7 +204,7 @@ footer {
 }
 /* Define a CSS class to make the text yellow */
 .yellow-email {
-  color: #006b00; /* Yellow text color */
+  color: #030142; /* Yellow text color */
 }
 /* Modern Interactive Button Styles */
 .modern-button {
@@ -210,20 +212,21 @@ footer {
   padding: 10px 20px;
   text-align: center;
   text-decoration: none;
-  margin-bottom: 10px;
+  margin-bottom: 75px;
   margin-right: 10px;
-  background-color: #006b00; /* Star Yellow background */
+  background-color: #42170D; /* Star Yellow background */
   color: #fce4cc; /* Dark Night Blue text color */
-  border: 2px solid #006b00; /* Star Yellow border */
+  border: 2px solid #42170D; /* Star Yellow border */
   border-radius: 5px;
   font-weight: bold;
   transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
   cursor: pointer;
+  
 }
 
 .modern-button:hover {
   background-color: #fce4cc; /* Dark Night Blue background on hover */
-  color: #006b00; /* Star Yellow text color on hover */
+  color: #42170D; /* Star Yellow text color on hover */
 }
 /* Navigation Button Styles */
 .nav-button {
@@ -231,9 +234,9 @@ footer {
   padding: 8px 16px; /* Padding for the buttons */
   text-align: center;
   text-decoration: none;
-  background-color: #006b00; /* Star Yellow background */
+  background-color: #42170D; /* Star Yellow background */
   color: #fce4cc; /* Dark Night Blue text color */
-  border: 2px solid #006b00; /* Star Yellow border */
+  border: 2px solid #42170D; /* Star Yellow border */
   border-radius: 5px;
   font-weight: bold;
   transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
@@ -243,10 +246,10 @@ footer {
 
 .nav-button:hover {
   background-color: #fce4cc; /* Dark Night Blue background on hover */
-  color: #006b00; /* Star Yellow text color on hover */
+  color: #42170D; /* Star Yellow text color on hover */
 }
 h3{
-   color: #006b00;
+   color: #030142;
   font-size: 24px;
 }
 /* Adjust the grid layout */
