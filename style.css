@@ -3,26 +3,26 @@
 /* Global Styles */
 body {
   font-family: sans-serif;
-  background-color: #03002e; /* Dark Night Blue background */
-  color: #ffffff; /* White text color for paragraphs */
+  background-color: #fce4cc; /* Dark Night Blue background */
+  color: #42170D; /* White text color for paragraphs */
 }
 
 a {
-  color: #f7d41d; /* Star Yellow link color */
+  color: #006b00; /* Star Yellow link color */
   text-decoration: none;
   
 }
 
 a:hover {
-  color: #f0de38; /* Brighter Star Yellow on hover */
+  color: #006b00; /* Brighter Star Yellow on hover */
 }
 
 /* Header Styles */
 header {
   text-align: center;
   padding: 20px 0;
-  background-color: #03002e; /* Dark Night Blue background */
-  color: #f7d41d; /* Star Yellow text color for headers */
+  background-color: #fce4cc; /* Dark Night Blue background */
+  color: #006b00; /* Star Yellow text color for headers */
 }
 
 header img {
@@ -32,14 +32,14 @@ header img {
 
 header h1 {
   font-size: 50px;
-  color: #f7d41d; /* Star Yellow color for h1 */
+  color: #006b00; /* Star Yellow color for h1 */
   padding-top: 200px;
   padding-bottom: 20px;
 }
 
 header h2 {
   align-content: left;
-  color: #f7d41d; /* Star Yellow color for h2 */
+  color: #006b00; /* Star Yellow color for h2 */
   padding-top: 200px;
 }
 
@@ -63,29 +63,29 @@ nav li {
 
 nav a {
   text-decoration: none;
-  color: #f7d41d; /* Star Yellow text color */
+  color: #006b00; /* Star Yellow text color */
   font-size: 18px;
 }
 
 nav a:hover {
-  color: #f9e63b; /* Brighter Star Yellow on hover */
+  color: #006b00; /* Brighter Star Yellow on hover */
 }
 
 /* Add this style for a modern button appearance */
 nav a {
   padding: 10px 20px;
   border-radius: 5px;
-  background-color: #03002e; /* Dark Night Blue background */
+  background-color: #fce4cc; /* Dark Night Blue background */
   transition: background-color 0.3s ease-in-out; /* Smooth background color transition on hover */
 }
 
 nav a:hover {
-  background-color: #121212; /* Slightly darker background on hover */
+  background-color: #fce4cc; /* Slightly darker background on hover */
 }
 
 
 nav a:hover {
-  background-color: #03002e; /* Slightly brighter Dark Gray on hover */
+  background-color: #fce4cc; /* Slightly brighter Dark Gray on hover */
 }
 /* Default styles for larger screens */
 nav {
@@ -97,12 +97,12 @@ nav a {
   padding: 5px 10px;
   border-radius: 5px;
   margin-right: 10px;
-  background-color: #03002e; /* Dark Gray background */
-  color: #f7d41d; /* Star Yellow text color */
+  background-color: #fce4cc; /* Dark Gray background */
+  color: #006b00; /* Star Yellow text color */
 }
 
 nav a:hover {
-  background-color: #03002e; /* Slightly brighter Dark Gray on hover */
+  background-color: #fce4cc; /* Slightly brighter Dark Gray on hover */
 }
 
 /* Media query for smaller screens */
@@ -140,48 +140,49 @@ nav a:hover {
 }
 
 .slide caption {
+
   position: absolute;
   bottom: 0;
   left: 0;
   width: 100%;
   padding: 10px;
   background-color: rgba(0, 0, 0, 0.5);
-  color: #ffffff; /* White text color for captions */
+  color: #42170D; /* White text color for captions */
 }
 
 /* About Us and Meet the Team Styles (you can further customize these styles) */
 .about-us, .meet-the-team {
   padding: 20px;
-  background-color: #03002e; /* Dark Night Blue background */
-  color: #ffffff; /* White text color for paragraphs */
+  background-color: #fce4cc; /* Dark Night Blue background */
+  color: #42170D; /* White text color for paragraphs */
 
   /* Apply styles to h1 and p within these sections */
 }
 
 h1, h2 {
-  color: #f7d41d; /* Yellow header text color */
+  color: #006b00; /* Yellow header text color */
   font-size: 30px; /* Adjust font size as needed */
 }
 
 .about-us p, .meet-the-team p {
-  color: #ffffff; /* White text color for paragraphs */
+  color: #42170D; /* White text color for paragraphs */
   font-size: 20px; /* Adjust font size as needed */
 }
 
 /* Sign Up Now Styles */
 .sign-up-now {
   padding: 20px;
-  background-color: #03002e; /* Dark Gray background */
-  color: #f7d41d; /* Star Yellow text color for sign-up content */
+  background-color: #fce4cc; /* Dark Gray background */
+  color: #006b00; /* Star Yellow text color for sign-up content */
   
 }
 h1, h2 {
-  color: #f7d41d; /* Yellow header text color */
+  color: #006b00; /* Yellow header text color */
   font-size: 30px; /* Adjust font size as needed */
 }
 
 .sign-up-now p, .meet-the-team p, ul {
-  color: #ffffff; /* White text color for paragraphs */
+  color: #42170D; /* White text color for paragraphs */
   font-size: 20px; /* Adjust font size as needed */
 }
 
@@ -191,26 +192,17 @@ h1, h2 {
   margin-right: 10px;
 }
 
-/* Instagram Link Button Styles */
-.instagram-link-button {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  padding: 10px;
-  border-radius: 5px;
-  background-color: #f7d41d; /* Star Yellow background */
-  color: #03002e; /* Dark Night Blue text color */
-}
+
 
 /* Footer Styles */
 footer {
   text-align: center;
   padding: 20px;
-  background-color: #03002e; /* Dark Night Blue background */
+  background-color: #fce4cc; /* Dark Night Blue background */
 }
 /* Define a CSS class to make the text yellow */
 .yellow-email {
-  color: #f7d41d; /* Yellow text color */
+  color: #006b00; /* Yellow text color */
 }
 /* Modern Interactive Button Styles */
 .modern-button {
@@ -220,9 +212,9 @@ footer {
   text-decoration: none;
   margin-bottom: 10px;
   margin-right: 10px;
-  background-color: #f7d41d; /* Star Yellow background */
-  color: #03002e; /* Dark Night Blue text color */
-  border: 2px solid #f7d41d; /* Star Yellow border */
+  background-color: #006b00; /* Star Yellow background */
+  color: #fce4cc; /* Dark Night Blue text color */
+  border: 2px solid #006b00; /* Star Yellow border */
   border-radius: 5px;
   font-weight: bold;
   transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
@@ -230,8 +222,8 @@ footer {
 }
 
 .modern-button:hover {
-  background-color: #03002e; /* Dark Night Blue background on hover */
-  color: #f7d41d; /* Star Yellow text color on hover */
+  background-color: #fce4cc; /* Dark Night Blue background on hover */
+  color: #006b00; /* Star Yellow text color on hover */
 }
 /* Navigation Button Styles */
 .nav-button {
@@ -239,9 +231,9 @@ footer {
   padding: 8px 16px; /* Padding for the buttons */
   text-align: center;
   text-decoration: none;
-  background-color: #f7d41d; /* Star Yellow background */
-  color: #03002e; /* Dark Night Blue text color */
-  border: 2px solid #f7d41d; /* Star Yellow border */
+  background-color: #006b00; /* Star Yellow background */
+  color: #fce4cc; /* Dark Night Blue text color */
+  border: 2px solid #006b00; /* Star Yellow border */
   border-radius: 5px;
   font-weight: bold;
   transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
@@ -250,11 +242,11 @@ footer {
 }
 
 .nav-button:hover {
-  background-color: #03002e; /* Dark Night Blue background on hover */
-  color: #f7d41d; /* Star Yellow text color on hover */
+  background-color: #fce4cc; /* Dark Night Blue background on hover */
+  color: #006b00; /* Star Yellow text color on hover */
 }
 h3{
-   color: #f7d41d;
+   color: #006b00;
   font-size: 24px;
 }
 /* Adjust the grid layout */
