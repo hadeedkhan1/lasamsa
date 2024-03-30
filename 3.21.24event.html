@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://cdn.jsdelivr.net/npm/fullcalendar@5.11.3/main.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fullcalendar@5.11.3/main.min.css">
+
+  <title>Guest Speaker Shaykh Islam 3/21/2024</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <nav>
+      <a class="nav-button" href="about-us.html">About Us</a>
+      <a class="nav-button" href="forms-signup.html">Forms Signup</a>
+      <a class="nav-button" href="instagram-link.html">Instagram</a>
+      <a class="nav-button" href="upcoming-events.html">Upcoming Events</a>
+    </nav>
+
+
+
+    </nav>
+    <a href="index.html">
+      <img src="msa-logo.png" alt="LASA High School MSA Chapter Logo" style="width: 100px; height: auto;">
+    </a>
+
+    <h1 >Guest Speaker Shaykh Islam Visits LASA</h1>
+    <p><b>3/21/2024</b></p>
+  </header>
+  <section class="slideshow">
+    <div class="slide">
+      <a href="3.21.24event.html">
+      <img src="shaykhislameventpic2.jpg" alt="Guest Speaker Skaykh Islam presenting">
+      </a>
+    </div>
+    <div class="slide">
+      <a href="3.21.24event.html">
+      <img src="shaykhislameventpic1.jpg" alt="Guest Speaker Skaykh Islam presenting">
+      </a>
+    </div>
+    
+  </section>
+ <p class="meet-the-team">On March 21, 2024 we welcomed Shaykh Islam over for our first official MSA event. Shaykh Islam talked about the imporance of Ramadan and what it means, as well as answering questions about Islam.</p>
+  <footer>
+    <p>2023 LASA High School MSA Chapter</p>
+    <p>Contact Us: <a class="yellow-email" href="mailto:lasahighmsa@gmail.com">lasahighmsa@gmail.com</a></p>
+    <p>Instagram: <a class="yellow-email" href="https://www.instagram.com/lasa.msa/">@lasa.msa</a></p>
+  </footer>
+
+</body>
+  
+</html>
+<script
+    type="module"
+    src="https://cdn.jsdelivr.net/npm/@bufferhead/nightowl@0.0.14/dist/nightowl.js"
+>
+  
+</script>
+<script>
+    //SLIDESHOW CODE JS
+    let slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+      let slides = document.getElementsByClassName("slide");
+      for (let i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {
+        slideIndex = 1;
+      }
+      slides[slideIndex - 1].style.display = "block";
+      setTimeout(showSlides, 4000); // Change image every 2 seconds
+    }
+
+  </script>
