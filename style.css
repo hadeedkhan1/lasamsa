@@ -141,11 +141,12 @@ nav a:hover {
 }
 
 .slide img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transition: transform 0.3s ease;
-  cursor: pointer; /* Added cursor pointer to indicate clickable */
+    max-width: 100%; /* Limit width to 100% of container */
+    max-height: 100%; /* Limit height to 100% of container */
+    width: auto; /* Allow the width to adjust while maintaining aspect ratio */
+    height: auto; /* Allow the height to adjust while maintaining aspect ratio */
+    border-radius: 20px;
+
 }
 .slide img:hover {
     /* Added hover effect to scale up the image */
