@@ -27,21 +27,21 @@
     
   </header>
 
-   <!-- <section class="slideshow">
+ <section class="slideshow">
     <div class="slide">
-      <img src="image1.jpg" alt="Image 1" style="width: 1400 px; height: 840 px;">
-      <caption>Image of Mosque</caption>
+      <a href="3.21.24event.html">
+      <img src="shaykhislameventpic2.jpg" alt="Guest Speaker Skaykh Islam presenting">
+      </a>
+      <div class="caption">Guest Speaker Event 3/21/2024</div>
     </div>
+    
     <div class="slide">
-      <img src="image2.jpg" alt="Image 2">
-      <caption>Caption 2</caption>
-    </div>
-    <div class="slide">
-      <img src="image3.jpg" alt="Image 3">
-      <caption>Caption 3</caption>
+      <a href="3.21.24event.html">
+      <img src="shaykhislameventpic1.jpg" alt="Guest Speaker Skaykh Islam presenting">
+      </a>
+      <div class="caption">Guest Speaker Event 3/21/2024</div>
     </div>
   </section>
-  -->
 
   <section class="about-us">
     <h2>About Us</h2>
@@ -86,3 +86,22 @@
 
 </body>
 </html>
+<script>
+    //SLIDESHOW CODE JS
+    let slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+        let slides = document.getElementsByClassName("slide");
+        for (let i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {
+          slideIndex = 1;
+        }
+        slides[slideIndex - 1].style.display = "block";
+        setTimeout(showSlides, 6000); // Change image every 2 seconds
+      }
+
+    </script>
