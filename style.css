@@ -302,3 +302,22 @@ h3{
   font-size: 20px;
   margin-top: 5px;
 }
+.about-us .slide {
+    text-align: center;
+}
+
+.meet-the-team .team-members {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.team-member {
+    text-align: center;
+}
+
+.team-member img {
+    width: 100%; /* Ensure images take the full width of their containers */
+    max-width: 200px; /* Set a max-width to avoid oversized images */
+    height: auto; /* Maintain aspect ratio */
+}
