@@ -279,7 +279,7 @@ h3{
   display: block; /* Remove extra spacing below the image */
   margin-left: auto;
   margin-right: auto;
-  min-width: 100%;
+  
 }
 .team-member-row {
   display: flex;
@@ -290,8 +290,10 @@ h3{
 .team-member {
   width: 50%;
   padding: 10px;
-  border: 1px solid #ccc;
+  border: 3px solid #ccc;
+  border-radius: 3px;
   margin-bottom: 10px;
+  min-width: 50%;
   
 }
 
